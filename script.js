@@ -31,6 +31,25 @@ setTimeout(typeWriter,45);
 
 function nextPage(){
 
-alert("الصفحة التالية ستكون معرض الصور والرسائل الجميلة ❤️");
+document.getElementById("letter").style.display="none";
+
+document.body.innerHTML = `
+<div style="
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+text-align:center;
+color:white;
+font-size:35px;
+padding:40px;
+font-family:Cairo;
+">
+
+كل ما تحسين نفسج ضايجه تذكري انو اكو شخص يهمه امرج شخص مستعد ينطيج روحه حته يشوفج فرحانه 
+اتمنى هالموقع البسيط خلاج تبتسمين يمكن شفت سنونج🫣... 💜<br><br>ت
+
+</div>
+`;
 
 }
